@@ -7,7 +7,7 @@ const MainBody = () => {
   const [expected, setExpected] = useState(null);
 
   const fetchRandomTest = () => {
-    const API_BASE_URL = "https://ml-logisticregression-webapp-production.up.railway.app";
+    const API_BASE_URL = "ml-logisticregression-webapp.railway.internal";
     fetch(API_BASE_URL + "/api/random-test")
       .then((res) => res.json())
       .then((data) => {
