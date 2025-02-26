@@ -7,7 +7,7 @@ const MainBody = () => {
   const [expected, setExpected] = useState(null);
 
   const fetchRandomTest = () => {
-    fetch("/api/random-test")
+    fetch("${API_BASE_URL}/api/random-test")
       .then((res) => res.json())
       .then((data) => {
         setPrediction(data.prediction);
