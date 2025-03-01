@@ -10,7 +10,8 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
 # Load dataset
-sonar_data = pd.read_csv('Copy of sonar data.csv', header=None)
+sonar_data = pd.read_csv(os.path.join(os.path.dirname(__file__), 'Copy of sonar data.csv'), header=None)
+
 
 # Separate features and labels
 X = sonar_data.drop(columns=60, axis=1)
