@@ -7,7 +7,8 @@ const MainBody = () => {
   const [expected, setExpected] = useState(null);
 
   const fetchRandomTest = () => {
-    fetch(`${process.env.REACT_APP_API_BASE_URL}/api/random-test`)
+    fetch('https://ml-logisticregression-backend-production.up.railway.app/api/random-test')
+
 
       .then((res) => res.json())
       .then((data) => {
