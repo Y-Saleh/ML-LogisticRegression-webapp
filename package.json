@@ -35,6 +35,6 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://ml-logisticregression-webapp-production.up.railway.app/api",
+  "proxy": "https://ml-logisticregression-backend-production.up.railway.app",
   "homepage": "./"
 }
