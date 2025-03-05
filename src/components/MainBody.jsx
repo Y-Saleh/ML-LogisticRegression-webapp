@@ -23,13 +23,14 @@ const MainBody = () => {
       <div className='absolute top-[10%] w-full md:max-w-[50%] max-w-[600px] h-full flex flex-col text-gray-500 p-6'>
         <h1 className='font-bold text-4xl'>Machine Learning Project Showcase</h1>
         <p className='text-gray-500 pt-6'>
-          Basic project to showcase SK-Learn and use of Logistic Regression models to create a predictive model capable of predicting land mines with an accuracy greater than 95%.
+          Basic project to showcase SK-Learn and use of Logistic Regression models to create a predictive model capable of predicting land mines with an accuracy greater than 90%.
         </p>
 
         <div className="flex flex-wrap justify-between p-6">
           <div className="flex flex-col gap-6 w-full md:w-2/3">
             <div className="bg-black text-white p-8 rounded-md">
-              <p className="text-center">Accuracy: 96%</p>
+              <p className="text-center">Accuracy on training data: 82%</p>
+              <p className="text-center">Accuracy on test data: 91%</p>
             </div>
 
             <div className="bg-black text-white p-8 rounded-md">
