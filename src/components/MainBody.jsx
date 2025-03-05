@@ -23,7 +23,7 @@ const MainBody = () => {
 
   return (
     <div className='max-w-[1140px] m-auto flex-col'>
-      <div className='absolute top-[10%] w-full md:max-w-[50%] max-w-[600px] h-full flex flex-col text-gray-500 p-6'>
+      <div className='w-full md:max-w-[50%] max-w-[600px] flex flex-col text-gray-500 p-6'>
         <h1 className='font-bold text-4xl'>Machine Learning Project Showcase</h1>
         <p className='text-gray-500 pt-6'>
           Basic project to showcase SK-Learn and use of Logistic Regression models to create a predictive model capable of predicting land mines with an accuracy greater than 90%.
