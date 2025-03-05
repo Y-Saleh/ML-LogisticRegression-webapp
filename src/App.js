@@ -11,7 +11,7 @@ function App() {
       <TopBar />
       <Navbar />
 
-      <div className="flex flex-col ">
+      <div className="flex flex-row ">
         <MainBody />
         <ConfusionMatrix />
       </div>
