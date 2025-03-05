@@ -11,7 +11,7 @@ function App() {
       <TopBar />
       <Navbar />
       <MainBody />
-      <conMatrix />
+      <ConfusionMatrix />
     </div>
   );
 }
