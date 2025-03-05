@@ -11,10 +11,11 @@ function App() {
       <TopBar />
       <Navbar />
 
-      
-      <MainBody />
-      <ConfusionMatrix />
-      
+      <div className="max-w-[1140px] m-auto flex-col">
+
+        <MainBody />
+        <ConfusionMatrix />
+      </div>
       
     </div>
   );
