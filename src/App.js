@@ -14,6 +14,7 @@ function App() {
       <div className="max-w-[1140px] m-auto flex-col">
 
         <MainBody />
+        
         <div className="p-8">
           <ConfusionMatrix />
         </div>
