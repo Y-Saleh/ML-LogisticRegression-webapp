@@ -15,11 +15,11 @@ function App() {
 
         
 
-        <div className="flex flex-col m-auto p-8">
+        <div className="p-8">
           <MainBody />
         </div>
 
-        <div className="flex flex-col m-auto p-8">
+        <div className="p-8">
           <ConfusionMatrix />
         </div>
       </div>
