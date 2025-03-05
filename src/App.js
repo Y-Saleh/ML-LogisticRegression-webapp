@@ -10,8 +10,12 @@ function App() {
     <div>
       <TopBar />
       <Navbar />
-      <MainBody />
-      <ConfusionMatrix />
+
+      <div className="flex flex-col ">
+        <MainBody />
+        <ConfusionMatrix />
+      </div>
+      
     </div>
   );
 }
