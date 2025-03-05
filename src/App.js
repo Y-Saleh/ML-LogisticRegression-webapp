@@ -11,11 +11,15 @@ function App() {
       <TopBar />
       <Navbar />
 
-      <div className="max-w-[1140px] m-auto flex-col">
+      <div className="max-w-[1140px] m-auto flex-col space-y-8">
 
-        <MainBody />
         
-        <div className="p-8">
+
+        <div className="flex flex-col m-auto p-8">
+          <MainBody />
+        </div>
+
+        <div className="flex flex-col m-auto p-8">
           <ConfusionMatrix />
         </div>
       </div>
