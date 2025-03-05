@@ -11,7 +11,7 @@ function App() {
       <TopBar />
       <Navbar />
 
-      <div className="max-w-[1140px] m-auto flex-col space-y-8">
+      <div className="max-w-[1140px] m-auto flex-col space-y-80">
 
         
 
