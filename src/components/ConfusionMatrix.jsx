@@ -8,7 +8,7 @@ const ConfusionMatrix = () => {
   }, []);
 
   return (
-    <div className="w-full md:max-w-[50%] max-w-[600px] h-full flex flex-col mt-4">
+    <div >
       <h2>Confusion Matrix</h2>
       {imageUrl && <img src={imageUrl} alt="Confusion Matrix" />}
     </div>
