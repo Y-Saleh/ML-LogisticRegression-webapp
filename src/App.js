@@ -1,7 +1,7 @@
 import TopBar from "./components/TopBar";
 import Navbar from "./components/Navbar";
 import MainBody from "./components/MainBody";
-import conMatrix from "./components/conMatrix";
+import ConfusionMatrix from "./components/ConfusionMatrix";
 
 function App() {
   
