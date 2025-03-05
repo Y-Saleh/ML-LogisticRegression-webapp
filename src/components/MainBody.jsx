@@ -23,7 +23,7 @@ const MainBody = () => {
 
   return (
     <div className="max-w-[1140px] m-auto flex flex-col space-y-8 p-8">
-      <div className="w-full flex flex-col text-gray-500 p-5">
+      <div className="w-full flex flex-col text-gray-500 p-6">
         <h1 className="font-bold text-4xl">Machine Learning Project Showcase</h1>
         <p className="text-gray-500 pt-6">
           Basic project to showcase SK-Learn and Logistic Regression models for predicting land mines with over 90% accuracy.
@@ -84,6 +84,11 @@ const MainBody = () => {
       <div className="w-full flex flex-col items-center">
         <h2 className="text-2xl font-bold">Confusion Matrix</h2>
         {imageUrl && <img src={imageUrl} alt="Confusion Matrix" className="max-w-full" />}
+
+        <p className="w-full md:w-1/3 flex flex-col self-start p-6 mt-4">The confusion matrix is generated based on the test data used to represent out comes. As you can see the model is mostly accurate, however it does have more false negatives than false positives
+        which can be dangerous as a mine being predicted as a rock could be catastrophic vs a rock being predicted as mine might just result in additional safety measures around something harmless. Moving forward I want to compare different accuracies from a variety of models </p>
+
+
       </div>
     </div>
   );
