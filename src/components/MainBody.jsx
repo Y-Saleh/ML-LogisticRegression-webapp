@@ -85,7 +85,7 @@ const MainBody = () => {
         <h2 className="text-2xl font-bold">Confusion Matrix</h2>
         {imageUrl && <img src={imageUrl} alt="Confusion Matrix" className="max-w-full" />}
 
-        <p className="w-full md:w-1/3 flex flex-col self-start p-6 mt-4">The confusion matrix is generated based on the test data used to represent out comes. As you can see the model is mostly accurate, however it does have more false negatives than false positives
+        <p className="w-full md:w-1/2 flex flex-col self-start p-6 mt-4">The confusion matrix is generated based on the test data used to represent out comes. As you can see the model is mostly accurate, however it does have more false negatives than false positives
         which can be dangerous as a mine being predicted as a rock could be catastrophic vs a rock being predicted as mine might just result in additional safety measures around something harmless. Moving forward I want to compare different accuracies from a variety of models </p>
 
 
