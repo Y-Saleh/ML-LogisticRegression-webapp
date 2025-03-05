@@ -1,7 +1,7 @@
 import TopBar from "./components/TopBar";
 import Navbar from "./components/Navbar";
 import MainBody from "./components/MainBody";
-import ConfusionMatrix from "./components/ConfusionMatrix";
+
 
 function App() {
   
@@ -13,15 +13,8 @@ function App() {
 
       <div className="max-w-[1140px] m-auto flex-col space-y-8">
 
+        <MainBody />
         
-
-        <div className="p-8">
-          <MainBody />
-        </div>
-
-        <div className="p-8">
-          <ConfusionMatrix />
-        </div>
       </div>
       
     </div>
