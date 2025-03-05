@@ -11,13 +11,10 @@ function App() {
       <TopBar />
       <Navbar />
 
-      <div className="flex flex-col ">
+      <div className="flex flex-col items-center">
         <MainBody />
         
-      </div>
-
-      <div className="flex flex-col ">
-      <ConfusionMatrix />
+        <ConfusionMatrix />
       </div>
       
     </div>
