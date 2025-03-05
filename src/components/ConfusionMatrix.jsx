@@ -8,7 +8,7 @@ const ConfusionMatrix = () => {
   }, []);
 
   return (
-    <div className="flex flex-wrap justify-between p-6" >
+    <div className="max-w-[1140px] m-auto flex-col" >
       <h2>Confusion Matrix</h2>
       {imageUrl && <img src={imageUrl} alt="Confusion Matrix" />}
     </div>
