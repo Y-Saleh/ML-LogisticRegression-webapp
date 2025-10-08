@@ -46,11 +46,19 @@ const MainBody = () => {
             </button>
 
             {/* Prediction Section */}
-            <div className="bg-black text-white p-8 rounded-md text-center">
+            <div
+              className={`p-8 rounded-md text-center ${
+                prediction && expected
+                  ? prediction === expected
+                    ? "bg-green-600 text-white"
+                    : "bg-red-600 text-white"
+                  : "bg-black text-white"
+              }`}
+            >
               <p>Prediction:</p>
               <div className="flex justify-center items-center gap-4">
-                {prediction === 'M' && <img src={seaMineIcon} alt="Sea Mine" className="w-24 h-24" />}
-                {prediction === 'R' && <img src={rockIcon} alt="Rock" className="w-24 h-24" />}
+                {prediction === "M" && <img src={seaMineIcon} alt="Sea Mine" className="w-24 h-24" />}
+                {prediction === "R" && <img src={rockIcon} alt="Rock" className="w-24 h-24" />}
               </div>
             </div>
 
