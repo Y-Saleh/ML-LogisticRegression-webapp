@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ML-LogisticRegression-webapp/static/css/main.e012266c.css",
-    "main.js": "/ML-LogisticRegression-webapp/static/js/main.1fe65513.js",
+    "main.css": "/ML-LogisticRegression-webapp/static/css/main.53b11514.css",
+    "main.js": "/ML-LogisticRegression-webapp/static/js/main.e83d8bd7.js",
     "index.html": "/ML-LogisticRegression-webapp/index.html",
-    "main.e012266c.css.map": "/ML-LogisticRegression-webapp/static/css/main.e012266c.css.map",
-    "main.1fe65513.js.map": "/ML-LogisticRegression-webapp/static/js/main.1fe65513.js.map"
+    "main.53b11514.css.map": "/ML-LogisticRegression-webapp/static/css/main.53b11514.css.map",
+    "main.e83d8bd7.js.map": "/ML-LogisticRegression-webapp/static/js/main.e83d8bd7.js.map"
   },
   "entrypoints": [
-    "static/css/main.e012266c.css",
-    "static/js/main.1fe65513.js"
+    "static/css/main.53b11514.css",
+    "static/js/main.e83d8bd7.js"
   ]
 }
