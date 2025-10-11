@@ -40,7 +40,7 @@ const MainBody = () => {
               <p>Total data samples used for training: 208 scans</p>
             </div>
 
-            <button className="bg-black text-white p-8 rounded-md active:bg-green-500 transition-colors duration-300 hover:bg-gray-500"
+            <button className="bg-gray-800 text-white p-8 rounded-md active:bg-green-500 transition-colors duration-300 hover:bg-gray-500"
               onClick={fetchRandomTest}>
               Click Me To Test a Random Entry
             </button>
